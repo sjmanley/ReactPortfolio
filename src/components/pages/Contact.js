@@ -2,19 +2,47 @@ import React from "react";
 
 const Contact = () => (
   <div>
-    <h1>Contact Page</h1>
-    <p>
-      Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
-      Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
-      pellentesque placerat lacus imperdiet efficitur. In felis nisl, luctus non ante euismod,
-      tincidunt bibendum mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-      posuere, eget tristique dui dapibus. Maecenas fermentum elementum faucibus. Quisque nec metus
-      vestibulum, egestas massa eu, sollicitudin ipsum. Nulla facilisi. Sed ut erat ligula. Nam
-      tincidunt nunc in nibh dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-      conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus. Etiam vel
-      condimentum magna, quis tempor nulla.
-    </p>
+  <div className="container1 content mt-4 noscroll">
+      <div className="row mt-2">
+          <div className="col-md-12">
+              <div id="contentHeader">
+                  <h2>Contact</h2>
+              </div>
+          </div>
+      </div>
+      <ul className="list-group list-group-flush">
+          <li className="list-group-item contactlink">
+              <i class="fas fa-phone-alt"></i>
+              <span><a href="tel:785-218-7198">(913)749-9115</a></span>
+          </li>
+          <li className="list-group-item contactlink">
+              <a href="mailto:scottmanleydesigns@gmail.com">
+                  <i class="far fa-envelope"></i>
+                  <span>scottmanleydesigns@gmail.com</span>
+              </a>
+          </li>
+          <li className="list-group-item contactlink">
+              <a href="https://docs.google.com/document/d/1xN8Ce2Sgz3sdjkfMWC86a9nkt23bgNANzjCdrxigi6k/edit">
+                  <i class="far fa-file"></i>
+                  <span>Resume</span>
+              </a>
+          </li>
+          <li className="list-group-item contactlink">
+              <a href="https://github.com/KCGooner">
+                  <i class="fab fa-github"></i>
+                  <span>GitHub</span>
+              </a>
+          </li>
+          <li className="list-group-item contactlink">
+              <a href="https://www.linkedin.com/in/joe-huelsman-70879356/">
+                  <i class="fab fa-linkedin-in"></i>
+                  <span>Linkedin</span>
+              </a>
+          </li>
+      </ul>
   </div>
+</div>
 );
+
 
 export default Contact;
