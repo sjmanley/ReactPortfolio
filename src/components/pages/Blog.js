@@ -13,34 +13,34 @@ const Blog = () => (
         <ul className="list-group list-group-flush">
             <li className="list-group-item contactlink">
                 <i class="fas fa-phone-alt"></i>
-                <span><a href="https://harleyjenn44.github.io/Project-1/">Project One</a></span>
+                <span><a href="https://harleyjenn44.github.io/Project-1/" target="_blank">Project One</a></span>
             </li>
             <li className="list-group-item contactlink">
-                <a href="https://desolate-headland-72832.herokuapp.com/2">
+                <a href="https://desolate-headland-72832.herokuapp.com/" target="_blank">
                     <i class="far fa-envelope"></i>
                     <span>Project Two</span>
                 </a>
             </li>
             <li className="list-group-item contactlink">
-                <a href="https://note-taker-sjm.herokuapp.com/">
+                <a href="https://note-taker-sjm.herokuapp.com/" target="_blank">
                     <i class="far fa-file"></i>
                     <span>Note Taker</span>
                 </a>
             </li>
             <li className="list-group-item contactlink">
-                <a href="https://sjmanley.github.io/WeatherDashboard/">
+                <a href="https://sjmanley.github.io/WeatherDashboard/" target="_blank">
                     <i class="fab fa-github"></i>
                     <span>Weather Dashboard</span>
                 </a>
             </li>
             <li className="list-group-item contactlink">
-                <a href="https://burgerscott.herokuapp.com/">
+                <a href="https://burgerscott.herokuapp.com/" target="_blank">
                     <i class="fab fa-linkedin-in"></i>
                     <span>Eat Da Burger</span>
                 </a>
             </li>
             <li className="list-group-item contactlink">
-                <a href="https://sjmanley.github.io/DailyPlanner/">
+                <a href="https://sjmanley.github.io/DailyPlanner/" target="_blank">
                     <i class="fab fa-linkedin-in"></i>
                     <span>Daily Planner</span>
                 </a>

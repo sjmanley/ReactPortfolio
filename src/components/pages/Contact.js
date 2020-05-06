@@ -22,19 +22,19 @@ const Contact = () => (
               </a>
           </li>
           <li className="list-group-item contactlink">
-              <a href="https://drive.google.com/file/d/1UCpJT5S7zyzETA87GWXUWNpKnowucwiF/view">
+              <a href="https://drive.google.com/file/d/1UCpJT5S7zyzETA87GWXUWNpKnowucwiF/view" target="_blank">
                   <i class="far fa-file"></i>
                   <span>Resume</span>
               </a>
           </li>
           <li className="list-group-item contactlink">
-              <a href="https://github.com/sjmanley">
+              <a href="https://github.com/sjmanley" target="_blank">
                   <i class="fab fa-github"></i>
                   <span>GitHub</span>
               </a>
           </li>
           <li className="list-group-item contactlink">
-              <a href="https://www.linkedin.com/in/scott-manley-0a8325bb/?midToken=AQGhx3b10cwMTA&trk=eml-jobs_jymbii_digest-header-41-profile&trkEmail=eml-jobs_jymbii_digest-header-41-profile-null-72p2rk%7Ek1uxq3el%7E1x-null-neptune%2Fprofile%7Evanity%2Eview">
+              <a href="https://www.linkedin.com/in/scott-manley-0a8325bb/?midToken=AQGhx3b10cwMTA&trk=eml-jobs_jymbii_digest-header-41-profile&trkEmail=eml-jobs_jymbii_digest-header-41-profile-null-72p2rk%7Ek1uxq3el%7E1x-null-neptune%2Fprofile%7Evanity%2Eview" target="_blank">
                   <i class="fab fa-linkedin-in"></i>
                   <span>Linkedin</span>
               </a>
