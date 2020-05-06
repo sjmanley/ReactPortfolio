@@ -1,19 +1,37 @@
 import React from "react";
+import picture from "/Users/scottmanley/ReactPortfolio/src/components/pages/IMG_1410 2.jpg"
 
-const Home = () => (
-  <div>
-    <h1>Home Page</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
-      varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
-      Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-      imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum ligula
-      in tincidunt commodo. Morbi sit amet mollis orci, in tristique ex. Donec nec ornare elit.
-      Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-      consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-      fames ac ante ipsum primis in faucibus.
-    </p>
-  </div>
-);
+function Home() {
+  return (
+    <div>
+      <div className="container content mt-4 noscroll">
+        <div className="row mt-2">
+          <div className="col-md-12">
+            <div id="header">
+              <h1>Home Page</h1>
+            </div>
+          </div>
+        </div>
+        <div className="row mt-2">
+          <div className="col-12 col-md-4">
+            <img className="headshot img-fluid" src={picture} />
+          </div>
+          <div className="col-12 col-md-8 pt-2 pt-md-0">
+            <p>Creative Designer · Web Developer · Frontend Developer · Freelance Graphic Designer
+              <br></br>
+              <br></br>
+              Experienced Creative Designer. Strong development skills in Web Development 
+              (FrontEnd and BackEnd) Digital Graphics, Logo Design, Adobe Creative Suite, and a skilled Artisan. 
+            <br></br>
+              <br></br>
+              SJM Design is a professional design studio creating anything from small to 
+              large/long-term projects. With over 25 years of exposure to many different clients, 
+              we can create a final product that will enrich corporate or private needs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export default Home;
