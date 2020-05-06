@@ -13,7 +13,7 @@ const Contact = () => (
       <ul className="list-group list-group-flush">
           <li className="list-group-item contactlink">
               <i class="fas fa-phone-alt"></i>
-              <span><a href="tel:785-218-7198">(913)749-9115</a></span>
+              <span><a href="tel:913-749-9115">(913)749-9115</a></span>
           </li>
           <li className="list-group-item contactlink">
               <a href="mailto:scottmanleydesigns@gmail.com">
@@ -22,19 +22,19 @@ const Contact = () => (
               </a>
           </li>
           <li className="list-group-item contactlink">
-              <a href="https://docs.google.com/document/d/1xN8Ce2Sgz3sdjkfMWC86a9nkt23bgNANzjCdrxigi6k/edit">
+              <a href="https://drive.google.com/file/d/1UCpJT5S7zyzETA87GWXUWNpKnowucwiF/view">
                   <i class="far fa-file"></i>
                   <span>Resume</span>
               </a>
           </li>
           <li className="list-group-item contactlink">
-              <a href="https://github.com/KCGooner">
+              <a href="https://github.com/sjmanley">
                   <i class="fab fa-github"></i>
                   <span>GitHub</span>
               </a>
           </li>
           <li className="list-group-item contactlink">
-              <a href="https://www.linkedin.com/in/joe-huelsman-70879356/">
+              <a href="https://www.linkedin.com/in/scott-manley-0a8325bb/?midToken=AQGhx3b10cwMTA&trk=eml-jobs_jymbii_digest-header-41-profile&trkEmail=eml-jobs_jymbii_digest-header-41-profile-null-72p2rk%7Ek1uxq3el%7E1x-null-neptune%2Fprofile%7Evanity%2Eview">
                   <i class="fab fa-linkedin-in"></i>
                   <span>Linkedin</span>
               </a>
