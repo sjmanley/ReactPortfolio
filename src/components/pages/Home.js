@@ -3,9 +3,9 @@ import picture from "/Users/scottmanley/ReactPortfolio/src/components/pages/IMG_
 
 function Home() {
   return (
-    
+
     <div>
-      <div style={{backgroundColor: "#e0dede"}}>portfolio</div>
+      <div style={{ backgroundColor: "#e0dede" }}>online</div>
       <div className="container content mt-4 noscroll">
         <div className="row mt-2">
           <div className="col-md-12">
@@ -22,17 +22,21 @@ function Home() {
             <p><b>Creative Designer · Web Developer · Frontend Developer · Freelance Graphic Designer</b>
               <br></br>
               <br></br>
-              Experienced Creative Designer. Strong development skills in Web Development 
-              (FrontEnd and BackEnd) Digital Graphics, Logo Design, Adobe Creative Suite, and a skilled Artisan. 
+              Experienced Creative Designer. Strong development skills in Web Development
+              (FrontEnd and BackEnd) Digital Graphics, Logo Design, Adobe Creative Suite, and a skilled Artisan.
             <br></br>
               <br></br>
-              <b>SJM Design</b> is a professional design studio creating anything from small to 
-              large/long-term projects. With over 25 years of exposure to many different clients, 
+              <b>SJM Design</b> is a professional design studio creating anything from small to
+              large/long-term projects. With over 25 years of exposure to many different clients,
               we can create a final product that will enrich corporate or private needs.</p>
           </div>
+          
         </div>
+        
       </div>
+      <div style={{ backgroundColor: "#e0dede" }}>portfolio</div>
     </div>
+    
   );
 }
 

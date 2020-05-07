@@ -2,7 +2,7 @@ import React from "react";
 
 const Blog = () => (
     <div>
-             <div style={{backgroundColor: "#e0dede"}}>portfolio</div>
+        <div style={{ backgroundColor: "#e0dede" }}>online</div>
         <div className="container1 content mt-4 noscroll">
             <div className="row mt-2">
                 <div className="col-md-12">
@@ -56,6 +56,7 @@ const Blog = () => (
                 </li>
             </ul>
         </div>
+        <div style={{ backgroundColor: "#e0dede" }}>portfolio</div>
     </div>
 );
 
