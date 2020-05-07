@@ -7,7 +7,7 @@ const Contact = () => (
             <div className="row mt-2">
                 <div className="col-md-12">
                     <div id="contentHeader">
-                        <h3><b>SJM</b> - <i>Connection Network</i></h3>
+                        <h3 style={{"text-align":"center"}}><b>SJM</b> - <i>Connection Network</i></h3>
                     </div>
                 </div>
             </div>

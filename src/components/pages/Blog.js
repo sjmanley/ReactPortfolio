@@ -7,7 +7,7 @@ const Blog = () => (
             <div className="row mt-2">
                 <div className="col-md-12">
                     <div id="contentHeader">
-                        <h3><b>SJM</b> - (BC) <i>Projects</i></h3>
+                        <h3 style={{"text-align":"center"}}><b>SJM</b> - (BC) <i>Projects</i></h3>
                     </div>
                 </div>
             </div>
@@ -15,43 +15,43 @@ const Blog = () => (
                 <li className="list-group-item contactlink">
                     <a href="https://harleyjenn44.github.io/Project-1/" target="_blank">
                         <i class="far fa-envelope"></i>
-                        <button type="button" class="btn btn-primary">1</button>
-                        <span>  Project One</span>
+                        <button type="button" class="btn btn-dark">1</button>
+                        <span>  • Project One   -   "Game Of Rings" Interactive Faux Gaming Platform</span>
                     </a>
                 </li>
                 <li className="list-group-item contactlink">
                     <a href="https://desolate-headland-72832.herokuapp.com/" target="_blank">
                         <i class="far fa-envelope"></i>
-                        <button type="button" class="btn btn-primary">2</button>
-                        <span>  Project Two</span>
+                        <button type="button" class="btn btn-dark">2</button>
+                        <span>  • Project Two  -  NJS Roofing Inc. Professional Contractors</span>
                     </a>
                 </li>
                 <li className="list-group-item contactlink">
                     <a href="https://note-taker-sjm.herokuapp.com/" target="_blank">
                         <i class="far fa-file"></i>
-                        <button type="button" class="btn btn-primary">3</button>
-                        <span>  Note Taker</span>
+                        <button type="button" class="btn btn-dark">3</button>
+                        <span>  • Note Taker - Program To Take And Keep Notes For Organizing Daily Activities</span>
                     </a>
                 </li>
                 <li className="list-group-item contactlink">
                     <a href="https://sjmanley.github.io/WeatherDashboard/" target="_blank">
                         <i class="fab fa-github"></i>
-                        <button type="button" class="btn btn-primary">4</button>
-                        <span>  Weather Dashboard</span>
+                        <button type="button" class="btn btn-dark">4</button>
+                        <span>  • Weather Dashboard - Website To Keep Track Of Weather In Key Areas Of Interest</span>
                     </a>
                 </li>
                 <li className="list-group-item contactlink">
                     <a href="https://burgerscott.herokuapp.com/" target="_blank">
                         <i class="fab fa-linkedin-in"></i>
-                        <button type="button" class="btn btn-primary">5</button>
-                        <span>  Eat Da Burger</span>
+                        <button type="button" class="btn btn-dark">5</button>
+                        <span>  • Eat Da Burger - Fun Game To Create And To "EAT" Gourmet Burgers And Sandwiches</span>
                     </a>
                 </li>
                 <li className="list-group-item contactlink">
                     <a href="https://sjmanley.github.io/DailyPlanner/" target="_blank">
                         <i class="fab fa-linkedin-in"></i>
-                        <button type="button" class="btn btn-primary">6</button>
-                        <span>  Daily Planner</span>
+                        <button type="button" class="btn btn-dark">6</button>
+                        <span>  • Daily Planner - Weekly And Daily Planner Scheduler To Keep Track Of Tasks</span>
                     </a>
                 </li>
             </ul>
