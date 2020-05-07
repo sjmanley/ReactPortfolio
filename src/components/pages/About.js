@@ -17,7 +17,7 @@ function About() {
             <img className="headshot img-fluid" src={picture} />
           </div>
           <div className="col-12 col-md-8 pt-2 pt-md-0">
-            <p>SJM Fine Design is a professional design firm. Full-Stack developing with
+            <p><b>SJM Design</b> is a professional design firm. Full-Stack developing with
             skills in HTML, CSS, JavaScript, Bootstrap, JQuery, Node, MySQL, Databases
             and MongoDB. Skills to individualize your fine art needs and enhance your
             personal life style. We work closely with our clients to ensure a total

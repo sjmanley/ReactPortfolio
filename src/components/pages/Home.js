@@ -18,14 +18,14 @@ function Home() {
             <img className="headshot img-fluid" src={picture} />
           </div>
           <div className="col-12 col-md-8 pt-2 pt-md-0">
-            <p>Creative Designer · Web Developer · Frontend Developer · Freelance Graphic Designer
+            <p><b>Creative Designer · Web Developer · Frontend Developer · Freelance Graphic Designer</b>
               <br></br>
               <br></br>
               Experienced Creative Designer. Strong development skills in Web Development 
               (FrontEnd and BackEnd) Digital Graphics, Logo Design, Adobe Creative Suite, and a skilled Artisan. 
             <br></br>
               <br></br>
-              SJM Design is a professional design studio creating anything from small to 
+              <b>SJM Design</b> is a professional design studio creating anything from small to 
               large/long-term projects. With over 25 years of exposure to many different clients, 
               we can create a final product that will enrich corporate or private needs.</p>
           </div>
