@@ -5,6 +5,7 @@ function Home() {
   return (
     
     <div>
+      <div style={{backgroundColor: "#e0dede"}}>portfolio</div>
       <div className="container content mt-4 noscroll">
         <div className="row mt-2">
           <div className="col-md-12">
@@ -14,7 +15,7 @@ function Home() {
           </div>
         </div>
         <div className="row mt-2">
-          <div className="col-12 col-md-4">
+          <div className="col-12 col-md-3">
             <img className="headshot img-fluid" src={picture} />
           </div>
           <div className="col-12 col-md-8 pt-2 pt-md-0">
