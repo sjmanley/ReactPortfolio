@@ -5,7 +5,7 @@ function Home() {
   return (
 
     <div>
-      <div style={{ backgroundColor: "#e0dede" }}>online</div>
+      <div style={{ backgroundColor: "#e0dede" , textAlign: "-webkit-center"}}>online portfolio</div>
       <div className="container content mt-4 noscroll">
         <div className="row mt-2">
           <div className="col-md-12">
@@ -32,9 +32,11 @@ function Home() {
           </div>
           
         </div>
-        
+        <br></br>
+              <br></br>
+              <br></br>
       </div>
-      <div style={{ backgroundColor: "#e0dede" }}>portfolio</div>
+      <div style={{ backgroundColor: "#e0dede" , textAlign: "-webkit-center"}}>copyright 2020</div>
     </div>
     
   );
