@@ -1,5 +1,5 @@
 import React from "react";
-import picture from "/Users/scottmanley/ReactPortfolio/src/components/pages/IMG_1410.jpg"
+import picture from "../pages/IMG_1410.jpg"
 
 function About() {
   return (
