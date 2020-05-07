@@ -3,6 +3,7 @@ import picture from "/Users/scottmanley/ReactPortfolio/src/components/pages/IMG_
 
 function Home() {
   return (
+    
     <div>
       <div className="container content mt-4 noscroll">
         <div className="row mt-2">
